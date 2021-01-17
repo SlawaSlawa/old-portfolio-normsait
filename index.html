@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="libs/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Normsite</title>
+</head>
+<body>
+   <header class="header" id="header">
+      <div class="container">
+          <div class="header-top">
+               <div class="header__logo">
+                   <a href="index.html" class="logo">My website portfolio</a>
+               </div>
+               <div class="header__nav-menu">
+                  <nav class="nav-menu">
+                       <a href="index.html" class="nav-menu__item selected">Главная</a>
+                       <a href="#portfolio" class="nav-menu__item">Портфолио</a>
+                       <a href="#aboutme" class="nav-menu__item">Обо мне</a>
+                       <a href="#contacts" class="nav-menu__item">Связаться со мной</a>
+                   </nav>
+               </div>
+           </div>
+           
+           <h1 class="header__title">
+               Добро пожаловать на мой сайт портфолио
+           </h1>
+           <p class="header__text-name">
+               Меня зовут Слава
+               <span class="header__text-description">
+                   Я занимаюсь созданием сайтов
+               </span>
+           </p>
+           <a href="#content" class="arrow">&or;</a>
+       </div>
+   </header>
+   <main class="content" id="content">
+       <div class="content__scills">
+           <div class="container">
+                <div class="scills">
+                   <h2 class="section__title">
+                        Что я умею:
+                   </h2>
+                   <div class="scills__items">
+                       <div class="scills-item">
+                           <img src="images/layout.jpg" alt="layout" class="scills-item__img">
+                           <span class="scills-item__text">
+                               Вёрстка по макету
+                           </span>
+                        </div>
+                        
+                        <div class="scills-item">
+                           <img src="images/mobile-adaptation.png" alt="mobile-adaptation" class="scills-item__img">
+                           <span class="scills-item__text">
+                               Адаптация под мобильные устройства
+                           </span>
+                        </div>
+                        
+                         <div class="scills-item">
+                           <img src="images/website.jpg" alt="website" class="scills-item__img">
+                    
+                              <span class="scills-item__text">
+                               Загрузка сайта на хостинг
+                              </span>
+                           
+                        </div>
+                        
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="portfolio" id="portfolio">
+          <div class="container">
+               <h2 class="section__title">Портфолио:</h2>
+               <div class="portfolio__items">
+                   <div class="portfolio-item">
+                       <img src="images/examples_preview/ex_1.jpg" alt="example" class="portfolio-item__img">
+                       <a href="examples/1/index.html" target="_blank"class="portfolio-item__link">
+                           Пример №1
+                       </a>
+                   </div>
+                   
+                    <div class="portfolio-item">
+                       <img src="images/examples_preview/ex_2.jpg" alt="example" class="portfolio-item__img">
+                       <a href="examples/2/index.html" target="_blank"class="portfolio-item__link">
+                           Пример №2
+                       </a>
+                   </div>
+                   
+                    <div class="portfolio-item">
+                       <img src="images/examples_preview/ex_3.jpg" alt="example" class="portfolio-item__img">
+                       <a href="examples/3/index.html" target="_blank"class="portfolio-item__link">
+                           Пример №3
+                       </a>
+                   </div>
+                   
+                   <div class="portfolio-item">
+                       <img src="images/examples_preview/ex_asus.jpg" alt="example" class="portfolio-item__img">
+                       <a href="examples/4_asus/index.html" target="_blank"class="portfolio-item__link">
+                           Макет "Асуса"
+                       </a>
+                   </div>
+                   
+                    <div class="portfolio-item">
+                       <img src="images/examples_preview/ex_organic.jpg" alt="example" class="portfolio-item__img">
+                       <a href="examples/5_organic/index.html" target="_blank"class="portfolio-item__link">
+                           Макет "Органика"
+                       </a>
+                   </div>
+                   
+                    
+                   
+                    <div class="portfolio-item">
+                       <img src="images/examples_preview/ex_beach.jpg" alt="example" class="portfolio-item__img">
+                       <a href="examples/6/index.html" target="_blank"class="portfolio-item__link">
+                           Макет "Пляж"
+                       </a>
+                   </div>
+                   
+                 <div class="portfolio-item">
+                       <img src="images/examples_preview/ex_gk.jpg" alt="example" class="portfolio-item__img">
+                       <a href="examples/gk/index.html" target="_blank"class="portfolio-item__link">
+                           Гармония климата
+                       </a>
+                   </div>
+                   
+                    <div class="portfolio-item">
+                       <img src="images/examples_preview/ex_dhl.jpg" alt="example" class="portfolio-item__img">
+                       <a href="examples/dhl/index.html" target="_blank"class="portfolio-item__link">
+                           DHL
+                       </a>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="about-me" id="aboutme">
+           <div class="container">
+              <div class="about-me-bg">
+                   <h2 class="about-me__title">
+                       Обо мне
+                   </h2>
+                   <p class="about-me__text">
+                    Живу в городе Ульяновск
+                    Увлекаюсь чтением книг, просмотрами фильмов, игрой на гитаре, версткой сайтов, музыкой и много чем другим... 
+                   </p>
+               </div>
+           </div>
+       </div>
+       <div class="contacts" id="contacts">
+          <div class="container">
+               <h2 class="section__title">Свяжитесь со мной:</h2>
+               <ul class="contacts__text">
+                    <li>тел: <a href="tel:+79084763352" class="contacts__link">+79084763352</a> </li>
+                    <li>email: <a href="mailto:slawapocht4@yandex.ru?subject=Походу с работы" class="contacts__link">slawapocht4@yandex.ru</a> </li>
+                    <li><a href="https://vk.com/id95974385" target="_blank" class="vk-icon"><i class="fab fa-vk"></i></a></li>
+               </ul>
+           </div>
+       </div>
+   </main>
+   <footer class="footer">
+        <div class="container">
+            <div class="footer-wrap">
+                <span class="author">Автор: Вячеслав &copy;2019</span>
+                <nav class="nav-menu ">
+                        <a href="#header" class="nav-menu__item footer-font selected">Главная</a>
+                        <a href="#portfolio" class="nav-menu__item footer-font">Портфолио</a>
+
+                </nav>
+             </div>
+           </div>
+       </footer>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <script src="libs/jQuery_min/jQuery_v3.3.1.js"></script>
+   <script src="js/main.js"></script>
+   <script src="libs/fontawesome-free-5.6.3-web/all.js"></script>    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+       m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+       ym(51402583, "init", {
+            id:51402583,
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+       });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/51402583" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</body>
+</html>
